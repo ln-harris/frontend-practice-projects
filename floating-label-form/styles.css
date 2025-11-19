@@ -1,0 +1,84 @@
+/* .header {
+} */
+
+body {
+  margin: 0;
+  background: #0b121f;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 140px); /* I subtracted header height */
+}
+
+.form_title {
+  color: #2ecc71;
+}
+
+.floating_form {
+  width: 300px;
+  padding: 40px;
+  background: #262a2f;
+  border-radius: 8px;
+  border: 1px solid #262a2f;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.form_group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.form_group input {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: 485460;
+  border-bottom: 1px solid #2ecc71;
+  color: #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.form_group label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #595959;
+  font-size: 18px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.form_group .highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #2ecc71;
+  transition: all 0.3s ease;
+}
+
+/* animations for form input lables */
+
+.form_group input:focus ~ label,
+.form_group input:valid ~ label {
+  top: -18px;
+  font-size: 16px;
+  color: #2ecc71;
+}
+
+.form_footer-text {
+  color: #fff;
+}

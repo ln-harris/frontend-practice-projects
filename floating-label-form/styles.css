@@ -1,6 +1,6 @@
 .body {
   margin: 0;
-  background: linear-gradient(-45deg, #454b56, #141414, #182233, #0b121f);
+  background: linear-gradient(-45deg, #454b56, #141414, #131c2c, #0e131d);
   background-size: 400% 400%;
   animation: gradientMove 12s ease infinite;
 }
@@ -30,7 +30,7 @@
   padding-bottom: 5px;
   font-size: 45px;
   color: #08ce68;
-  text-shadow: 0 0 5px #ff7700; /*Added this to make the brand name stand out*/
+  text-shadow: 0 0 5px #b0b0b0; /*Added this to make the brand name stand out*/
 }
 
 .header_subtitle {

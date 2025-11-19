@@ -33,7 +33,7 @@
   padding-bottom: 5px;
   font-size: 45px;
   color: #08ce68;
-  text-shadow: 0 0 6px #ff7700; /*Added this to make the brand name stand out*/
+  text-shadow: 0 0 5px #ff7700; /*Added this to make the brand name stand out*/
 }
 
 .header_subtitle {
@@ -154,4 +154,11 @@ main {
 
 .submit_btn:active {
   transform: scale(0.98);
+}
+
+.small_note {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
 }

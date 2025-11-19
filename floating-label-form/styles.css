@@ -138,14 +138,15 @@ main {
   border: none;
   border-radius: 8px;
   background: #08ce68;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
 .submit_btn:hover {
   background: #3b7f59;
-  color: #fff;
+  color: #000;
   transform: translateY(-2px); /*Learned something new*/
 }
 

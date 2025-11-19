@@ -12,6 +12,18 @@ body {
   color: #fff;
 }
 
+.header_title {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.header_content {
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #485460;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -21,7 +33,22 @@ main {
 }
 
 .form_title {
-  color: #2ecc71;
+  color: #08ce68;
+  font-size: 28px;
+  margin: 0 0 16px;
+}
+
+.form_subtitle {
+  color: #fff;
+  font-size: 12px;
+  margin: 0 0 16px;
+}
+
+.form_container {
+  display: flex; /* Used flexbox for horizontal alignment */
+  flex-direction: column; /*Stack children vertically */
+  align-items: flex-end; /* Align .form_footer-text to the right edge */
+  width: 380px;
 }
 
 .floating_form {
@@ -31,6 +58,7 @@ main {
   border-radius: 8px;
   border: 1px solid #262a2f;
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
+  opacity: 0.97;
 }
 
 .form_group {
@@ -44,7 +72,7 @@ main {
   border: none;
   border-radius: 5px;
   background-color: 485460;
-  border-bottom: 1px solid #2ecc71;
+  border-bottom: 1px solid #08ce68;
   color: #ccc;
   font-size: 16px;
   outline: none;
@@ -66,7 +94,7 @@ main {
   left: 0;
   width: 0;
   height: 2px;
-  background: #2ecc71;
+  background: #08ce68;
   transition: all 0.3s ease;
 }
 
@@ -76,9 +104,5 @@ main {
 .form_group input:valid ~ label {
   top: -18px;
   font-size: 16px;
-  color: #2ecc71;
-}
-
-.form_footer-text {
-  color: #fff;
+  color: #08ce68;
 }

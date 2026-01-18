@@ -24,4 +24,18 @@ A modern calculator built using HTML, CSS, and JavaScript, featuring a glassmorp
 
 - Smooth hover and click effects
 
+## 🐞 Debugging Notes
+
+**Issue:**  
+Calculator would not clear after adding continuous calculation logic.
+
+**Cause:**  
+The `clearDisplay()` function was removed during refactoring, so the Clear (`C`) button had no function to call.
+
+**Fix:**  
+Reintroduced `clearDisplay()` and reset both `currentExpression` and `justCalculated` state.
+
+**Result:**  
+Clear functionality restored while preserving continuous calculation behavior.
+
 ![Preview](./images/calculator_demo.png)

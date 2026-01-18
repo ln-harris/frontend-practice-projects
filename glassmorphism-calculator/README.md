@@ -4,7 +4,7 @@ Frontend Project Challenge 4
 
 A modern calculator built using HTML, CSS, and JavaScript, featuring a glassmorphism UI design. This project focuses on clean layout, interactive functionality, while reinforcing core JavaScript logic and DOM manipulation.
 
-🔗 Live Demo: [View Live Demo]()
+🔗 Live Demo: [View Live Demo](https://ln-harris.github.io/frontend-practice-projects/glassmorphism-calculator/)
 
 ## Features ✨
 

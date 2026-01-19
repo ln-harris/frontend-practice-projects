@@ -6,9 +6,19 @@ This repo contains all of my beginner-to-intermediate frontend projects as I lea
 
 1. **Floating Label Form (HTML/CSS) 💬**
 
+   📁 [Project Features](./floating-label-form/)
+
 2. **Dark/Light Mode Toggle (CSS/JS) 🌗**
 
+   🔗 Live Demo: [View Live Demo](!)
+
+   📁 [Project Features](./dark-light-toggle//)
+
 3. **CAPTCHA Generator (JavaScript) 🧩**
+
+   🔗 Live Demo: [View Live Demo](!)
+
+   📁 [Project Features](./captcha-generator/)
 
 4. **Glassmorphism Calculator (HTML/CSS/JS) 📱**
 

@@ -12,7 +12,7 @@ This repo contains all of my beginner-to-intermediate frontend projects as I lea
 
    🔗 Live Demo: [View Live Demo](!)
 
-   📁 [Project Features](./dark-light-toggle/)
+   📁 [Project Features](https://ln-harris.github.io/frontend-practice-projects/./dark-light-toggle/)
 
 3. **CAPTCHA Generator (JavaScript) 🧩**
 

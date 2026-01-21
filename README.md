@@ -10,9 +10,9 @@ This repo contains all of my beginner-to-intermediate frontend projects as I lea
 
 2. **Dark/Light Mode Toggle (CSS/JS) 🌗**
 
-   🔗 Live Demo: [View Live Demo](!)
+   🔗 Live Demo: [View Live Demo](https://ln-harris.github.io/frontend-practice-projects/./dark-light-toggle/)
 
-   📁 [Project Features](https://ln-harris.github.io/frontend-practice-projects/./dark-light-toggle/)
+   📁 [Project Features](./dark-light-toggle/)
 
 3. **CAPTCHA Generator (JavaScript) 🧩**
 
